@@ -12,7 +12,7 @@ description: >-
 # After creating the repository, set these two values:
 #   url:     "https://<your-account>.github.io"
 #   baseurl: ""                # or "/repo-name" for a project page
-"https://Qrokke.github.io"
+"https://qrokke.github.io"
 baseurl: ""
 
 lang: en
