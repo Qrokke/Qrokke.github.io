@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="diary-entry framed">
+  <header class="diary-entry-head">
+    <time class="mono" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+    <h1>{{ page.title }}</h1>
+    {% if page.tags and page.tags != empty %}
+    <p class="tags mono">
+      {% for tag in page.tags %}<span class="tag">#{{ tag }}</span> {% endfor %}
+    </p>
+    {% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <p class="backlink"><a href="{{ '/diary/' | relative_url }}">&larr; All entries</a></p>
+</article>

@@ -1,0 +1,57 @@
+# ============================================================
+# Site configuration
+# ============================================================
+title: Asahi Kurokawa
+subtitle: Haptics / Soft Vibrotactile Displays
+description: >-
+  Personal research page of Asahi Kurokawa, Master's student at
+  Media Experience Design Lab, Ritsumeikan University.
+  Research on liquid-metal-based soft vibrotactile actuators and
+  haptic displays for VR.
+
+# After creating the repository, set these two values:
+#   url:     "https://<your-account>.github.io"
+#   baseurl: ""                # or "/repo-name" for a project page
+"https://Qrokke.github.io"
+baseurl: ""
+
+lang: en
+
+author:
+  name: Asahi Kurokawa
+  affiliation: Media Experience Design Lab, Ritsumeikan University
+  orcid: 0009-0007-2401-8095
+  # Written in a scrape-resistant form; rendered as-is on the page.
+  email_display: "akurukawa [at] mxdlab.net"
+
+# ------------------------------------------------------------
+# Collections
+# ------------------------------------------------------------
+# "diary" holds lightweight notes. Just drop a Markdown file into
+# the _diary/ folder (see README) — no other step is required.
+collections:
+  diary:
+    output: true
+    permalink: /diary/:name/
+    sort_by: date
+
+defaults:
+  - scope:
+      path: ""
+      type: diary
+    values:
+      layout: diary
+
+# ------------------------------------------------------------
+# Build settings (GitHub Pages compatible)
+# ------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

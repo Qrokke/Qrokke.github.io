@@ -1,0 +1,40 @@
+# ============================================================
+# Publications database
+# ------------------------------------------------------------
+# To add a paper, append one block. Only `authors`, `title`,
+# `venue`, `year`, and `category` are required.
+#
+#   category:    journal | international | domestic | poster | misc
+#   status:      (optional) e.g. "to appear", "conditionally accepted",
+#                "under review". Omit once published.
+#   doi:         (optional) bare DOI only, e.g. 10.20965/jrm.2026.pXXXX
+#                A https://doi.org/... link is generated automatically.
+#   url:         (optional) any other link (publisher page, arXiv, ...)
+#   pdf:         (optional) path or URL to an author-version PDF
+#   in_japanese: true  -> "(in Japanese)" is appended automatically
+#   note:        (optional) free text, e.g. "Best Poster Award"
+#
+# Entries are sorted by year (descending) within each category.
+# ============================================================
+
+- category: journal
+  authors: "Asahi Kurokawa, Masaharu Shimizu, Mitsuhito Ando, and Haruo Noma"
+  title: "Embedding a Haptic Display in a Computer Mouse for Texture Discrimination During Active Tracing"
+  venue: "Journal of Robotics and Mechatronics"
+  year: 2026
+  status: "to appear"
+  # doi: 10.20965/jrm.20XX.pXXXX   # <- uncomment and fill in once assigned
+
+- category: international
+  authors: "Asahi Kurokawa, Masaharu Shimizu, Mitsuhito Ando, and Haruo Noma"
+  title: "Liquid-Metal-Based Shear Vibrotactile Display for Active Touch in Virtual Environments"
+  venue: "EuroHaptics 2026, Work-in-Progress, Siena, Italy"
+  year: 2026
+  status: "to appear"
+
+- category: domestic
+  authors: "Asahi Kurokawa, Masaharu Shimizu, Mitsuhito Ando, and Haruo Noma"
+  title: "Skin Vibration Analysis of Soft Vibrotactile Actuators for Haptic Texture Rendering"
+  venue: "Proc. 2026 JSME Conference on Robotics and Mechatronics (ROBOMECH 2026), Fukuoka, Japan, Paper 2P1-Y03"
+  year: 2026
+  in_japanese: true

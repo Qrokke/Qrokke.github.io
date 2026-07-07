@@ -1,0 +1,15 @@
+# ------------------------------------------------------------
+# News items shown on the top page (newest first automatically).
+# To add one, append a block like:
+#
+# - date: 2026-08-01
+#   text: "Presented at ROBOMECH 2026 in Fukuoka."
+#
+# `text` supports Markdown links: [JRM](https://doi.org/...)
+# ------------------------------------------------------------
+
+- date: 2026-06-01
+  text: "Our paper on the SVA-M mouse-type haptic display was conditionally accepted by the *Journal of Robotics and Mechatronics*."
+
+- date: 2026-04-01
+  text: "A work-in-progress paper on the Soft Coil Actuator (SCA) was submitted to EuroHaptics 2026 (Siena, Italy)."
